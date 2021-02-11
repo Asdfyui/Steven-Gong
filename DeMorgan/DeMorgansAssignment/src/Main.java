@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         //Question 1
         int x = 5;
         int y = 7;
@@ -9,7 +10,6 @@ public class Main {
         System.out.println(((20) < (22)) && 5 < 7);
         System.out.println(true && true);
         System.out.println(true);
-
 
         //Question 2
         x = 10;
@@ -22,12 +22,8 @@ public class Main {
         System.out.println((( false) || (true)) && (40)/5 > z);
         System.out.println((( false) || (true)) && (8 > z));
         System.out.println((( false) || (true)) && (false));
-        System.out.println((( true) && (false)));
+        System.out.println((true) && (false));
         System.out.println(false);
-
-
-
-
 
         //Question 3
         boolean a = true;
@@ -39,9 +35,6 @@ public class Main {
         System.out.println((true) && ((false || true)));
         System.out.println((true) && (true));
         System.out.println(true);
-
-
-
 
         //Question 4
         a = false;
@@ -56,9 +49,6 @@ public class Main {
         System.out.println((true) && (20) == (20));
         System.out.println((true) && (true));
         System.out.println(true);
-
-
-
 
         //Question 5
         System.out.println((Math.abs(-2) == 2) || (Math.sqrt(Math.pow(9,2)) <= 9 && (-4 <= 4)));
