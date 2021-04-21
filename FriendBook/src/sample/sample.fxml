@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<children>
+      <Button layoutX="66.0" layoutY="310.0" mnemonicParsing="false" onAction="#buttonFriend" text="Create Friend" />
+      <TextField fx:id="textAge" layoutX="30.0" layoutY="217.0" />
+      <TextField fx:id="textFirstName" layoutX="30.0" layoutY="56.0" />
+      <TextField fx:id="textLastName" layoutX="30.0" layoutY="136.0" />
+      <Label layoutX="82.0" layoutY="38.0" prefHeight="18.0" prefWidth="89.0" text="First Name" />
+      <Label layoutX="82.0" layoutY="118.0" text="Last Name" />
+      <ListView fx:id="listFriend" layoutX="187.0" layoutY="34.0" onMouseClicked="#displayFriend" prefHeight="292.0" prefWidth="203.0" />
+      <Label fx:id="labelAge" layoutX="404.0" layoutY="211.0" prefHeight="18.0" prefWidth="161.0" text="Age" />
+      <Label fx:id="labelFirstName" layoutX="403.0" layoutY="38.0" prefHeight="18.0" prefWidth="183.0" text="First Name" />
+      <Label fx:id="labelLastName" layoutX="401.0" layoutY="118.0" prefHeight="18.0" prefWidth="161.0" text="Last Name" />
+      <Label layoutX="86.0" layoutY="197.0" text="Age" />
+      <Button layoutX="401.0" layoutY="310.0" mnemonicParsing="false" onAction="#buttonDelete" text="Delete Friend" />
+   </children>
+</AnchorPane>
